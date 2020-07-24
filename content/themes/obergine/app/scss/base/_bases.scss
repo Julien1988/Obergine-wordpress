@@ -1,0 +1,133 @@
+main {
+   
+    
+   
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    
+    
+}
+
+.date-icone {
+    padding: 0.4em;
+    border-radius: 6px;
+    color: $color-secondary;
+}
+
+.date-valid {
+    background-color: $color-primary;
+    
+}
+
+.date-invalid {
+    background-color: #D9AE64;
+}
+
+.difficult {
+
+    a {
+
+        background-color: red;
+    }
+    
+}
+
+.water {
+
+    a {
+        background-color: blue;
+    }
+
+}
+
+.location {
+    a {
+        background-color: green;
+
+    }
+}
+
+.family {
+    a {
+        background-color: blue;
+
+    }
+}
+
+.harvest {
+
+    a {
+        background-color: red;
+
+    }
+
+}
+
+.seedling {
+
+    a {
+        background-color: green;
+
+    }
+}
+
+// alignement du titre des articles associés sur l'image.
+
+.main__container__article__container__content__text {
+    padding-left: $gutter-smale;
+        
+    
+}
+
+// a de retour à la home 
+
+.back-to-home-container-link {
+    border: 1px solid $color-title-primary;
+    padding: .5em;
+    color: #0F9AFC;
+
+    transition : padding-left 1s;
+
+
+    &:hover {
+        text-decoration: none;
+        background-color: $color-title-primary;
+        color: white;
+        padding-left: 1.5em;
+    }
+
+    
+}
+
+// compteur du panier 
+
+.cart-contents-count {
+    padding-right: .5em;
+    color: white;
+
+    
+}
+
+.cart-contents {
+    &:hover {
+        text-decoration-line: none;
+    }
+}
+
+// Taille de l'image des articles
+
+.home-pagepostheadimageimg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: $gutter-smale / 2;
+}
+
+.

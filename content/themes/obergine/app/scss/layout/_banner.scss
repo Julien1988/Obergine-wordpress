@@ -1,0 +1,72 @@
+.banner {
+    background: {
+        position: top right;
+        size: cover;
+       
+    }
+    color: $color-border-primary;
+    height: 75vh;
+    position: relative;
+    z-index: 1;
+
+    &__container {
+        
+        // mobile view
+        
+        padding-left: 1.5em;
+
+        //end
+
+        //left: calc(100% / 2 - 261px);
+        position: absolute;
+        top: 70%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+        
+        
+
+
+        &__button {
+            border: none;
+            background-color: $color-primary;
+            color: white;
+            max-width: 50em;
+            border-radius: 6px;
+            font-weight: 600;
+            max-height: 2em;
+
+            p {
+                
+                padding-top: 0.2em;
+            }
+            
+
+            :hover {
+               color: $color-title-primary;
+               text-decoration-line: none;
+            }
+        }
+
+    }
+
+    &::after {
+        background: linear-gradient(
+            to top,
+            transparentize(#000, 0.5),
+            transparent
+        );
+
+        bottom: 0;
+        content: '';
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+}
+
+

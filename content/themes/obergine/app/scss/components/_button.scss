@@ -1,0 +1,59 @@
+.back-home-link {
+    padding: 0.5em;
+
+    &:hover {
+        
+        border: 1px solid #0F9AFC;
+        color: #0F9AFC;
+        text-decoration-line: none;
+    }
+}
+
+.header__header-up__nav {
+    >button {
+        margin-left: $gutter-smale / 4;
+        max-width: 60%;
+        display: flex;
+        justify-content: center;
+        
+        >i {
+            font-size: 80%;
+            
+        }
+    }
+}
+
+.banner__container__button {
+    
+    p {
+
+        a{
+            color: white;
+
+            
+        }
+        
+    }
+    
+}
+
+
+.main__container__main-head__top__header__button__buy {
+    :hover {
+        text-decoration-line: none;
+        color: $color-title-primary;
+    }
+}
+
+// comportement des liens "lire la suite"
+
+.home-page__post__main__link__read-more {
+    transition : padding-left 1s;
+
+
+    &:hover {
+        
+        padding-left: 1.5em;
+    }
+}
+

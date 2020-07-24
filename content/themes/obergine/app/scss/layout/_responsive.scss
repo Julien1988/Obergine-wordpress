@@ -1,0 +1,683 @@
+@media (min-width: 300px) {
+
+    // classe sur un autre navigateur que Chrome
+
+    .header__header-up__head__title__span-show {
+        color: white;
+    }
+
+    .other_navigator {
+        display: none;
+    }
+
+    // logo du header
+
+    .header__header-up__head__image {
+        display: none;
+    }
+
+    // affichage des favoris dans la page mon compte 
+
+    .fav-bot {
+        max-width: 70%;
+        margin-left: $gutter-smale;
+        
+        >ul {
+            
+        }
+    }
+
+    // affichage de semis et récolte en vue mobile
+
+    .planting-date {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .harvest {
+        display: flex;
+        flex-direction: column;
+    }
+    .articles-list-page__filters__filters-list {
+        display: flex;
+        flex-direction: column;
+
+        h6 {
+            margin-bottom: 1em;
+            margin-top: 1em;
+        }
+    }
+
+    // affichage de l'image et du titre
+
+    .home-page__post__head {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home-page__post__head__image__img {
+        max-width: 200%;
+        
+    }
+
+    .main__container__main-head__image__img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    
+
+    body {
+
+        
+        .footer__social-link {
+            display: none;
+        }
+    }
+    .footer {
+        display: flex;
+        
+        flex-direction: column-reverse;
+    }
+
+    
+    
+    hr {
+        display: none;
+    }
+     
+    .header {
+
+        .mobile-hide {
+            display: none;
+        }
+    }
+
+    // Home page
+
+    .home-page__group {
+
+        border-bottom: 1px solid $color-border-primary;
+        margin-left: $gutter-smale;
+        margin-right: $gutter-smale;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+    }
+
+    // searchform-advanced
+
+    .search-container {
+        
+        margin-bottom: 0.8em;
+    }
+    
+
+    // affichage de la taille des images dans ARTICLES ASSOCIES
+
+    .main__container__article__container__content {
+
+        .home-page__post__head__image__img {
+            max-width: 100%;
+        }
+    }
+            
+     
+
+  }
+
+  // file d'ariane 
+
+  [aria-current] {
+    text-decoration-line: none;
+    
+}
+
+  @media (min-width: 768px) {
+
+    // affichage sous d'autres navigateurs que Chrome
+
+    body {
+
+        .other-nav {
+            display: none!important;
+        }
+    }
+        
+    .other_navigator {
+        display: initial;
+        font-weight: 600;
+        font-size: 1.1em;
+        color: $color-primary;
+    }
+
+
+    // Premiere lettre du titre sur la page plantes potagères et blog dans un navigateur AUTRE que Chrome
+    .header__header-up__head__title__span-show {
+        color: $color-primary;
+        font-weight: 600;
+    }
+
+    //header woocommerce
+
+    .page-template-default {
+        
+        // logo du header
+
+        .header__header-up__head__image {
+            display: initial;
+            width: 5%;
+            height: 1.7em;
+
+            
+        }
+        .header__header-up__head__title__span {
+            display: none;
+        }
+
+        // Logo sous un autre navigateur que Chrome
+
+        .header__header-up__head__title__span-show {
+            color: $color-primary;
+            font-weight: 600;
+        }
+        
+
+        .header__header-up__head {
+
+            a {
+                display: flex;
+                justify-content: center;
+
+            }
+        }
+    }
+
+    // logo du header
+
+    .header__header-up__head__image {
+        display: initial;
+        width: 100%;
+        height: 1.7em;
+
+        
+    }
+    .header__header-up__head__title__span {
+        display: none;
+    }
+
+    .header__header-up__head {
+
+        a {
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+    
+    
+    
+
+    // file d'ariane 
+
+    [aria-current] {
+        text-decoration: underline $color-primary;
+        text-underline-position: under;
+        
+    }
+
+
+    // affichage des favoris dans la page mon compte 
+
+    .fav-bot {
+        max-width: 25%;
+    }
+
+    // affichage du compteur d'achat
+
+    
+    .cart-contents-count {
+        color: $color-primary;
+        font-weight: 600;
+        padding-right: 1em;
+        font-size: 1.3em;
+        
+        
+    }
+
+    // affichage de semis et récolte en vue tablette
+    body {
+
+        .planting-date {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .harvest {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    // banner
+
+    body {
+
+        // largeur de l'espace des filtres
+        .articles-list-page__filters {
+            width: 40%;
+
+            
+        }
+
+        .banner__container {
+            left: calc(100% / 2 - 261px);
+            padding-left: initial;
+            
+        }
+    }
+
+    
+
+    body { 
+        background: rgba(250, 250, 250, 0.993);
+
+        .footer__social-link {
+            display: none;
+        }
+
+        
+
+        .footer__nav {
+            display: initial;
+        }
+        .footer {
+
+            display: flex;
+            
+            flex-direction: initial;
+        }
+
+        
+    }
+
+    
+
+    .header {
+
+        background-color: white;
+        padding-top: $gutter-smale / 2;
+        padding-bottom: $gutter-smale / 2;
+
+        &__header-up {
+
+            color: $color-primary;
+            
+            &__nav {
+                display: none;
+            }
+            
+            &__head {
+                
+                &__title {
+                    padding-left: initial;
+
+                    &__span {
+                        color: $color-primary;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            &__social-links {
+
+                :hover {
+                    color: $color-teritary;
+                }
+
+                &__link {
+
+                    font-size: 1.5em;
+                    padding-right: 1em;
+                    color: $color-primary;
+
+                    &:last-child {
+                        
+                        padding: inherit;
+                        
+                        
+                    }
+                    
+                }
+                    
+
+            }
+
+            &__log {
+
+                &__link {
+
+                    color: $color-primary;
+
+                    :hover {
+                        color: $color-teritary;
+                    }
+                    
+                    i {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+
+        .mobile-hide {
+            display: flex;
+        }
+    }
+
+    // header panier / login
+
+    .header__header-up__log {
+
+        &__link {
+
+            margin-right: 1.5em;
+        }
+
+        :last-child {
+                
+            margin-right: 0em; 
+        }
+    }
+
+    
+
+    // article page
+
+    .main {
+
+        &__container {
+            margin-left: $gutter-smale;
+            margin-right: $gutter-smale;
+        }
+    }
+
+    // Banner
+    
+    .main {
+
+        .banner {
+            &__container {
+                left: 30%;
+            }
+        }
+        
+    }
+
+    // articles-list-page
+
+    .articles-list-page {
+        display: flex;
+
+        &__main {
+            max-width: 65%;
+
+           
+        }
+
+        &__filters {
+            margin-top: $gutter;
+            
+            &__filters-list {
+
+                
+                &__list {
+                    display: flex;
+                    flex-direction: column;
+
+                    &__item {
+
+                        &__link {
+
+                            &:hover {
+                                background-color: $color-background-primary;
+                                
+                                
+                            }
+                        }
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+
+    // Filter-page 
+
+    
+
+        
+    .articles-list-page__filters {
+        
+        margin-top: $gutter-smale / 4;
+        margin-left: $gutter-smale;
+        margin-bottom: $gutter-smale / 2;
+        
+        
+    }
+    
+    
+    .articles-list-page__filters__filters-list__list {
+        margin-bottom: $gutter-large;
+    }
+    
+    // Social Menu
+
+    body {
+
+        
+        .header__header-up__log {
+            :hover {
+                color: $color-title-primary;
+            }
+
+        }
+
+        
+        .menu-social-links-container {
+            ul {
+
+                li {
+
+                    font-size: 1.5em;
+                    
+                    a {
+                        color: $color-primary;
+                        width: 5rem;
+                        
+                        
+                        :hover {
+                            color: $color-title-primary;
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+    }
+
+    // searchform-advanced
+
+    .articles-list-page__filters__filters-list {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .search-container {
+        display: flex;
+        margin-bottom: 0.8em;
+    }
+
+    #name {
+        margin-right: 1em;
+    }
+
+    
+
+      
+}
+
+@media (min-width: 992px) {
+
+    body {
+
+        
+        .articles-list-page__filters {
+            
+            h6 {
+                
+                margin-top: initial;
+            }
+        }
+    }
+
+    // affichage du titre et de l'image
+
+    .home-page__post__head {
+        display: flex;
+        flex-direction: initial;
+    }
+
+    body {
+
+       
+
+        .home-page__post__head__image__img {
+            max-width: 100%;
+        }
+    }
+
+    body {
+        .footer__social-link {
+            display: initial;
+            
+            order: 2;
+
+            
+        }
+
+        footer {
+
+            .menu-social-links-container {
+    
+                ul {
+    
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    hr {
+        display: initial !important;
+    }
+    .main {
+
+
+        &__container {
+            margin-left: $gutter;
+            margin-right: $gutter;
+        }
+    }
+
+    // home page
+
+    .main {
+
+        
+        .home-page__post {
+            
+            border-bottom: none;
+            
+            
+        }
+    }
+
+    .home-page__group {
+
+        display: flex;
+
+
+    }
+
+    // Banner
+
+    .main {
+
+        .banner {
+            &__container {
+                left: 30%;
+            }
+        }
+        
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+
+        footer {
+
+            .footer__social-link {
+                margin-left: 8.5em;
+                display: initial;
+                display: flex;
+                flex-direction: initial;
+                order: initial;
+            }
+            .menu-social-links-container {
+    
+                ul {
+    
+                    display: flex;
+                    flex-direction: initial;
+                }
+            }
+        }
+        
+    }
+
+    .main {
+
+        &__container {
+            margin-left: $gutter-large;
+            margin-right: $gutter-large;
+        }
+
+    }
+
+    // Banner
+
+    .main {
+
+        .banner {
+            &__container {
+                left: 40%;
+            }
+        }
+        
+    }
+            
+
+    
+}
+
